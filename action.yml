@@ -12,7 +12,7 @@ inputs:
 
 runs:
   using: "docker"
-  image: "docker://ghcr.io/appthreat/blint:v1.0.33-beta.4"
+  image: "docker://ghcr.io/appthreat/blint:v1.0.33-beta.5"
   args:
     - "-o"
     - ${{ inputs.reports_dir }}
