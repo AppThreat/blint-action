@@ -1,6 +1,10 @@
 name: "blint"
 description: "Scan binaries for capabilities."
 inputs:
+  reports_dir:
+    description: "Report output directory. Defaults to /workspace/reports."
+    required: false
+    default: "/github/workspace/reports"
   src:
     description: "Directories or images. Defaults to workspace."
     required: false
@@ -13,6 +17,6 @@ runs:
     IS_GHA: 1
   args:
     - -o
-    - "/github/workspace/reports"
+    - ${{ inputs.reports_dir }}
     - -i
     - ${{ inputs.src }}
