@@ -12,5 +12,7 @@ runs:
   env:
     IS_GHA: 1
   args:
+    - -o
+    - "/github/workspace/reports"
     - -i
     - ${{ inputs.src }}
