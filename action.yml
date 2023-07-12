@@ -14,7 +14,7 @@ runs:
   using: "docker"
   image: "docker://ghcr.io/appthreat/blint:feature-blint-action"
   env:
-    IS_GHA: 1
+    CI: 1
   args:
     - -o
     - ${{ inputs.reports_dir }}
