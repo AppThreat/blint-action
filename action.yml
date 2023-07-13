@@ -12,7 +12,7 @@ inputs:
 
 runs:
   using: "docker"
-  image: "docker://ghcr.io/appthreat/blint:feature-blint-action"
+  image: "docker://ghcr.io/appthreat/blint:latest"
   env:
     CI: 1
   args:
