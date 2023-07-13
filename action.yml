@@ -1,5 +1,7 @@
 name: "blint"
+
 description: "Scan binaries for capabilities."
+
 inputs:
   reports_dir:
     description: "Report output directory. Defaults to /workspace/reports."
@@ -9,7 +11,7 @@ inputs:
     description: "Directories or images. Defaults to workspace."
     required: false
     default: "/github/workspace"
-
+    
 runs:
   using: "docker"
   image: "docker://ghcr.io/appthreat/blint:latest"
