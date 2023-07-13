@@ -1,7 +1,7 @@
 
 # BLint-action
 
-![blint logo](https://raw.githubusercontent.com/AppThreat/blint/feature/blint-action/blint.ico)
+![blint logo](https://raw.githubusercontent.com/AppThreat/blint/v1.0.33/blint.ico)
 
 BLint is a Binary Linter to check the security properties, and capabilities in your executables. It is powered by [lief](https://github.com/lief-project/LIEF).
 
