@@ -1,4 +1,4 @@
-name: "blint"
+name: "blint-action"
 
 description: "Scan binaries for capabilities."
 
